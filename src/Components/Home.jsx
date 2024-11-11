@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { ChatOpenAI } from "@langchain/openai";
 import { ChatPromptTemplate } from "@langchain/core/prompts";
 import { StringOutputParser } from '@langchain/core/output_parsers';
-import '../css/chatbot.css';
+import '../Css/chatbot.css';
 
 function Home() {
     const [uprompt, setUprompt] = useState('');
